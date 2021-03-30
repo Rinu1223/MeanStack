@@ -1,0 +1,48 @@
+h1{
+    color: white;
+    text-decoration: underline;
+    margin-left: 525px;
+  }
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+div
+{
+    width: 30%;
+    color: white;
+    float: left;
+    height: 500px;
+}
+.first{
+    background-color:hotpink;
+    color:black;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+}
+.second{
+background-color: skyblue;
+color:black;
+width: 30%;
+height: 500px;
+text-align: center;
+}
+.third
+{
+    background-color: greenyellow;
+    color:black;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    } 
+    #firstimg,#secimg,#thirdimg{
+        width: 80%;
+        margin-left: 8px;
+        height: 75%
+
+    }
+
