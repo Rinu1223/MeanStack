@@ -1,5 +1,6 @@
 var num1=10;
 var num2=20;
+varx=0;
 // without using third variable
 //num1= num1+num2;
 //num2=num1-num2;
