@@ -1,7 +1,7 @@
-/*importing Google font*/
+
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-/*Html rakup styling*/
+
 *,
 *::before,
 *::after{
@@ -16,7 +16,7 @@ html
   box-sizing: border-box;
 }
 
-/*Smartphone image*/
+
 img
 {
   width: 100%;
@@ -24,26 +24,26 @@ img
   max-width: 100%;
 }
 
-/*link styling*/
+
 a
 {
   text-decoration: none;
 }
 
-/*Logo styling*/
+
 h1
 {
   font-family: 'Pacifico', cursive;
   font-size: 40px;
 }
 
-/*body background color*/
+
 body
 {
   background-color: #fafafa;
 }
 
-/*Wrapper is like a container of body*/
+
 #wrapper
 {
   width: 100%;
@@ -67,15 +67,14 @@ body
   padding: 0 8rem;
 }
 
-/*smartphone image*/
-.phone-app-demo
-{
-  height: 61.8rem;
-  background: url('https://uditsolutions.in/babamachine/wp-content/uploads/2019/08/phone.png') center no-repeat;
-  flex: 1;
+.phone{
+  width:90% !important;
+  height: 80% !important;
+  max-width: 90% !important;
 }
 
-/*form styling*/
+
+
 .form-data
 {
   width: 100%;
@@ -93,14 +92,14 @@ body
   text-align: center;
 }
 
-/*logo again styling*/
+
 .logo h1
 {
-  /*width: 17.5rem;*/
+ 
   margin-bottom: 2.5rem;
 }
 
-/*form input styling*/
+
 .form-data form input
 {
   padding: .8rem;
@@ -153,7 +152,7 @@ body
   right: 0;
 }
 
-/*FACEBOOK ligin text styling*/
+
 .facebook-login
 {
   font-size: 1.4rem;
@@ -176,14 +175,14 @@ body
   margin-right: .7rem;
 }
 
-/*password reset styling*/
+
 .password-reset
 {
   font-size: 1.2rem;
   color: #003569;
 }
 
-/*signup text styling*/
+
 .sign-up
 {
   text-align: center;
@@ -212,7 +211,7 @@ body
   font-weight: bold;
 }
 
-/*Play stor and App store image styling*/
+
 .get-the-app
 {
   font-size: 1.4rem;
@@ -244,7 +243,7 @@ body
   margin-right: 1rem;
 }
 
-/*Footer link styling*/
+
 footer
 {
   padding: 5rem 0;
@@ -283,12 +282,10 @@ footer .container
   color: #999999;
 }
 
-/*responsive styling*/
+
 @media (max-width: 900px)
 {
-  .phone-app-demo{
-    display: none;
-  }
+  
 
   .form-data
   {
