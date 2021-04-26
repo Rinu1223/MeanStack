@@ -13,17 +13,17 @@ var text=[
     {distname:"apy",temp:25},
     {distname:"ktm",temp:26},
     {distname:"pkd",temp:25},
-    {distname:"knr",temp:28},
-    {distname:"tvm",temp:29},
+    {distname:"knr",temp:28}
     ]
     var result={}
-    for(var high of text){
-       
-
-        }
-        else{
-
-        }
+    for(var data of text){
+       if(data.distname in result)
+       {
+           
+       }
+       else{
+           result[data["distname"]]=data["temp"]
+       }
         
     }
-   
+   console.log(result);
